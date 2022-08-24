@@ -1,0 +1,30 @@
+body{
+  background: linear-gradient(1490deg, #0000d1, #0095ff);
+  height: 100vh;
+  display: flex;
+}
+.container{
+  margin: 220px auto;
+  background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d62495 60%, #285AEB 90%);
+  outline-color: #a02d76;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.8s;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+.container:hover input{
+  width: 350px;
+  cursor: pointer;
+}
+.container input{
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+}

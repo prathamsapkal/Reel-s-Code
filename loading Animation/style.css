@@ -1,0 +1,23 @@
+body{
+  background-color: aqua;
+}
+.container{
+  width: 40px;
+  margin: 70px auto;
+  align-items: center;
+}
+.box{
+  width: 15px;
+  height: 15px;
+  background: rgb(0, 120, 248);
+  display: inline-block;
+  animation: pulse 0.7s ease-in infinite alternate;
+}
+.box2, .box3{
+  animation-delay: 0.7s;
+}
+@keyframes pulse{
+  100%{
+    opacity: 0;
+  }
+}
